@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body {
+    text-align: center;
+    background-image: url('https://sm.ign.com/ign_br/screenshot/default/ellie-the-last-of-us-2-cosplay_2nyf.jpg');
+    background-size: cover; /* Para cobrir toda a área do fundo */
+    background-position: center; /* Para centralizar a imagem */
+    height: 100vh; /* Definindo a altura do corpo como 100% da altura da janela */
+    margin: 0; /* Removendo margens padrão do corpo */
+    display: flex; /* Para alinhar itens verticalmente */
+    justify-content: center; /* Alinhando horizontalmente */
+    align-items: center; /* Alinhando verticalmente */
+}
+
+.fonte {
+    font-family: 'Bungee Spice', sans-serif; 
+    font-size: 90px; 
+}
+
+a {
+    text-decoration: none;
+}
