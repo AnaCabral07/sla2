@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Bungee+Spice&display=swap');
+
+body.img {
+    margin: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: url('https://i.pinimg.com/originals/10/2f/aa/102faa90134c376c79688412fe154d46.gif');
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+.imagem {
+    max-width: 100%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.fonte {
+    position: absolute;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    font-family: 'Bungee Spice', sans-serif;
+    font-size: 40px;
+    color: white;
+}
+
+a {
+    text-decoration: none;
+}
+
+/* Regras de mídia para dispositivos móveis */
+@media screen and (max-width: 768px) {
+    .fonte {
+        font-size: 24px; /* Reduzir o tamanho da fonte para dispositivos móveis */
+    }
+}
